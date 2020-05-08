@@ -1,0 +1,30 @@
+###########################
+## Name     : scarf.pseudo
+## Author   : izder456
+## License  : N/A
+## Version  : v1.0
+## Language : Psuedocode
+###########################
+
+START
+
+colours <-- list of ( get_input("Enter Charater 1 : ") & get_input("Enter Charater 2 : ") )
+
+colour_length <-- integer of ( get_input("Enter desired Character length (Whole Number) : " ) )
+pattern_length <-- integer of ( get_input("Enter desired scarf length (Whole Number) : " ) )
+pattern_width <-- integer of ( get_input("Enter desired scarf width (Whole Number) : " ) )
+
+print empty line
+print( "Here is your scarf :" )
+
+iterate position by 1 starting at 0 while position < ( pattern_width * pattern_length ) :
+{
+		print( term in list:colours that = integer of ( position/colour_length ) modulo length of colours )
+			
+		if ( position modulo pattern_width ) = ( pattern_width-1 ):
+		{
+    	do carrige return
+		}
+}
+
+END
