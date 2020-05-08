@@ -5,6 +5,7 @@ Print a text scarf in various programming languages
 * Node.js LTS
 * Python 3
 * Clang-7
+* Clang++-7
 * Linux Terminal Access
 
 ## running/compiling :
