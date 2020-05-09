@@ -2,7 +2,7 @@
 // Name     : scarf.cpp
 // Author   : izder456
 // License  : N/A
-// Version  : v1.0
+// Version  : v1.0.1
 // Language : C++
 /////////////////////////
 
@@ -13,15 +13,15 @@ int main(void) {
   char colour1, colour2;
 
   std::cout << ("Enter Charater 1 : ");
-  std::cin >> colour1;
+  std::cin  >> colour1;
   std::cout << ("Enter Charater 2 : ");
-  std::cin >> colour2;
+  std::cin  >> colour2;
   std::cout << ("Enter desired Character length (Whole Number) : ");
-  std::cin >> colour_length;
+  std::cin  >> colour_length;
   std::cout << ("Enter desired scarf length (Whole Number) : ");
-  std::cin >> pattern_length;
+  std::cin  >> pattern_length;
   std::cout << ("Enter desired scarf width (Whole Number) : ");
-  std::cin >> pattern_width;
+  std::cin  >> pattern_width;
 
   char colours[2] = {
     colour1,
