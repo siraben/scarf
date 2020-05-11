@@ -8,7 +8,7 @@ Print a text scarf in various programming languages
 * Clang++-7
 * OpenJDK & JRE
 * Ruby
-* Linux Terminal Access
+* unix-like Terminal Access (Linux, BSD, MacOS)
 
 ## running/compiling :
 ### C : main.c :
