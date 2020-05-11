@@ -2,7 +2,7 @@
 ## Name     : scarf.rb
 ## Author   : izder456
 ## License  : N/A
-## Version  : v1.0
+## Version  : v1.0.1
 ## Language : Ruby
 #######################
 
@@ -21,8 +21,8 @@ pattern_width = gets.chomp.to_i
 #combine to array
 colours = [colour1, colour2]
 
-#print the scarf
-pos = 0 
+#print scarf
+pos = 0
 until pos == pattern_width * pattern_length do
   print "#{colours[(pos / colour_length) % colours.length()]}"
   if (pos % pattern_width) == (pattern_width - 1)

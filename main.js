@@ -12,11 +12,13 @@ const prompt = require('prompt-sync')({
 
 var colour_length, colours, pattern_length, pattern_width;
 
+//get input
 colours = [prompt("Enter Charater 1 : "), prompt("Enter Charater 2 : ")];
 colour_length = Number.parseInt(prompt("Enter desired Character length (Whole Number) : "));
 pattern_length = Number.parseInt(prompt("Enter desired scarf length (Whole Number) : "));
 pattern_width = Number.parseInt(prompt("Enter desired scarf width (Whole Number) : "));
 
+//print scarf
 console.log();
 console.log("Here is your scarf : ");
 _pj_a = (pattern_width * pattern_length);

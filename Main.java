@@ -2,7 +2,7 @@
 // Name     : scarf.java
 // Author   : izder456
 // License  : N/A
-// Version  : v1.0
+// Version  : v1.0.1
 // Language : Java
 /////////////////////////
 
@@ -27,7 +27,7 @@ class Main {
     System.out.print("Enter desired scarf width (Whole Number) : ");
     pattern_width = input.nextInt();
 
-    //combine array
+    //combine to array
     String colours[] = {colour1, colour2};
 
     //print scarf
