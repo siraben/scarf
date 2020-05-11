@@ -6,6 +6,8 @@ Print a text scarf in various programming languages
 * Python 3
 * Clang-7
 * Clang++-7
+* OpenJDK & JRE
+* Ruby
 * Linux Terminal Access
 
 ## running/compiling :
@@ -20,6 +22,12 @@ Print a text scarf in various programming languages
 
 ### Node.js LTS : main.js :
 * `node main.js`
+
+### Java : Main.java :
+* `javac Main.java && java Main`
+
+### Ruby : main.rb :
+*  `ruby main.rb`
 
 # note :
 main.pseudo isn't a real programming language, it's just the pseudocode equivalent of the Python 3 script.
