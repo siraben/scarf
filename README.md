@@ -28,6 +28,9 @@ Print a text scarf in various programming languages
 ### Node.js LTS : main.js :
 * `node main.js`
 
+### JSF*** : main.js :
+* `node main.jsf`
+
 ### Java : Main.java :
 * `javac Main.java && java Main`
 
@@ -43,6 +46,7 @@ Print a text scarf in various programming languages
 * For C# : https://scarfcs.isaacmeyer.repl.run
 * For Python 3 : https://scarfpy.isaacmeyer.repl.run
 * For Node.js : https://scarfjs.isaacmeyer.repl.run
+* For JSF*** : https://scarfjsf.isaacmeyer.repl.run
 * For Java : https://scarfjava.isaacmeyer.repl.run
 * For Ruby : https://scarfrb.isaacmeyer.repl.run
 * For Golang : https://scarfgo.isaacmeyer.repl.run
