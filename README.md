@@ -37,5 +37,15 @@ Print a text scarf in various programming languages
 ### Golang : main.go :
 * `go run main.go`
 
+## If you're lazy like me and just want it running :
+* For C : https://scarfc.isaacmeyer.repl.run
+* For C++ : https://scarfcpp.isaacmeyer.repl.run
+* For C# : https://scarfcs.isaacmeyer.repl.run
+* For Python 3 : https://scarfpy.isaacmeyer.repl.run
+* For Node.js : https://scarfjs.isaacmeyer.repl.run
+* For Java : https://scarfjava.isaacmeyer.repl.run
+* For Ruby : https://scarfrb.isaacmeyer.repl.run
+* For Golang : https://scarfjs.isaacmeyer.repl.run
+
 # note :
 main.pseudo isn't a real programming language, it's just the pseudocode equivalent of the Python 3 script.
