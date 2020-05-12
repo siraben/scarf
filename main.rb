@@ -22,6 +22,8 @@ pattern_width = gets.chomp.to_i
 colours = [colour1, colour2]
 
 #print scarf
+puts ""
+puts "Here is your scarf :"
 pos = 0
 until pos == pattern_width * pattern_length do
   print "#{colours[(pos / colour_length) % colours.length()]}"
