@@ -9,6 +9,7 @@ Print a text scarf in various programming languages
 * mono C# compiler
 * OpenJDK & JRE
 * Ruby
+* Crystal 0.27.2
 * Golang
 * unix-like Terminal Access (Linux, BSD, MacOS)
 
@@ -35,7 +36,10 @@ Print a text scarf in various programming languages
 * `javac Main.java && java Main`
 
 ### Ruby : main.rb :
-*  `ruby main.rb`
+* `ruby main.rb`
+
+### Crystal : main.cr :
+* `crystal main.cr`
 
 ### Golang : main.go :
 * `go run main.go`
@@ -49,6 +53,7 @@ Print a text scarf in various programming languages
 * For JSF*** : https://scarfjsf.isaacmeyer.repl.run
 * For Java : https://scarfjava.isaacmeyer.repl.run
 * For Ruby : https://scarfrb.isaacmeyer.repl.run
+* For Crystal : https://scarfcr.isaacmeyer.repl.run
 * For Golang : https://scarfgo.isaacmeyer.repl.run
 
 # note :
