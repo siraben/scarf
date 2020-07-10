@@ -4,8 +4,8 @@ Print a text scarf in various programming languages
 ## dependencies :
 * Node.js LTS
 * Python 3
-* Clang-7
-* Clang++-7
+* Clang-10
+* Clang++-10
 * mono C# compiler
 * OpenJDK & JRE
 * Ruby
@@ -15,10 +15,10 @@ Print a text scarf in various programming languages
 
 ## running/compiling :
 ### C : main.c :
-* `clang-7 -pthread -lm -o main main.c && ./main`
+* `clang-10 -pthread -lm -o main main.c && ./main`
 
 ### C++ : main.cpp :
-*  `clang++-7 -pthread -std=c++17 -o main main.cpp && ./main`
+*  `clang++-10 -pthread -std=c++17 -o main main.cpp && ./main`
 
 ### C# : main.cs :
 * `mcs -out:main.exe main.cs && mono main.exe`
