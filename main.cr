@@ -1,13 +1,13 @@
 #######################
-## Name     : scarf.rb
+## Name     : scarf.cr
 ## Author   : izder456
 ## License  : N/A
 ## Version  : v1.0.1
-## Language : Ruby
+## Language : Crystal
 #######################
 
 #get input
-print "Enter Character 1 : "
+print 
 colour1 = gets.not_nil!.chomp
 print "Enter Character 2 : "
 colour2 = gets.not_nil!.chomp
