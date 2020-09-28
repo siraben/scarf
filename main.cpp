@@ -32,8 +32,8 @@ int main(void) {
   };
 
   //print scarf
-  std::cout << ("\n");
-  std::cout << ("Here is your scarf : \n");
+  cout << ("\n");
+  cout << ("Here is your scarf : \n");
   _pj_a = (pattern_width * pattern_length);
   for (pos = 0; pos < _pj_a; pos++) {
     cout << (colours[(pos / colour_length) % sizeof(colours)]);
