@@ -7,22 +7,23 @@
 /////////////////////////
 
 #include <iostream>
+using namespace std;
 
 int main(void) {
   int colour_length, pattern_length, pattern_width, pos, _pj_a;
   char colour1, colour2;
 
   //get input
-  std::cout << ("Enter Charater 1 : ");
-  std::cin  >> colour1;
-  std::cout << ("Enter Charater 2 : ");
-  std::cin  >> colour2;
-  std::cout << ("Enter desired Character length (Whole Number) : ");
-  std::cin  >> colour_length;
-  std::cout << ("Enter desired scarf length (Whole Number) : ");
-  std::cin  >> pattern_length;
-  std::cout << ("Enter desired scarf width (Whole Number) : ");
-  std::cin  >> pattern_width;
+  cout << ("Enter Charater 1 : ");
+  cin  >> colour1;
+  cout << ("Enter Charater 2 : ");
+  cin  >> colour2;
+  cout << ("Enter desired Character length (Whole Number) : ");
+  cin  >> colour_length;
+  cout << ("Enter desired scarf length (Whole Number) : ");
+  cin  >> pattern_length;
+  cout << ("Enter desired scarf width (Whole Number) : ");
+  cin  >> pattern_width;
 
   //combine to array
   char colours[2] = {
@@ -35,9 +36,9 @@ int main(void) {
   std::cout << ("Here is your scarf : \n");
   _pj_a = (pattern_width * pattern_length);
   for (pos = 0; pos < _pj_a; pos++) {
-    std::cout << (colours[(pos / colour_length) % sizeof(colours)]);
+    cout << (colours[(pos / colour_length) % sizeof(colours)]);
     if (((pos % pattern_width) == (pattern_width - 1))) {
-      std::cout << ("\n");
+      cout << ("\n");
     }
   }
   return 0;
