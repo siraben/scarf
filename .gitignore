@@ -3,4 +3,6 @@ package-lock.json
 *.out
 *.exe
 *.class
+*.d
+*.o
 main
