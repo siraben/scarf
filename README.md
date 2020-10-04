@@ -6,6 +6,7 @@ Print a text scarf in various programming languages
 * Python 3
 * Clang-10
 * Clang++-10
+* Obj-C compiler with GNUStep libs
 * mono C# compiler
 * OpenJDK & JRE
 * Ruby
@@ -43,6 +44,9 @@ Print a text scarf in various programming languages
 
 ### Golang : main.go :
 * `go run main.go`
+
+## Obj-C : main.m :
+* `gcc $(gnustep-config --objc-flags) -o main main.m $(gnustep-config --base-libs)`
 
 ## If you're lazy like me and just want it running :
 * For C : https://scarfc.isaacmeyer.repl.run
