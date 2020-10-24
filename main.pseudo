@@ -20,12 +20,12 @@ print empty line
 print( "Here is your scarf :" )
 iterate position by 1 starting at 0 while position < ( pattern_width * pattern_length ) :
 {
-		print( term in list:colours that = integer of ( position/colour_length ) modulo length of colours )
+	print( term in list:colours that = integer of ( position/colour_length ) modulo length of colours )
 			
-		if ( position modulo pattern_width ) = ( pattern_width-1 ):
-		{
-    	do carrige return
-		}
+	if ( position modulo pattern_width ) = ( pattern_width-1 ) :
+	{	
+		do carrige return
+	}
 }
 
 END
