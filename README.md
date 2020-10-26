@@ -24,6 +24,9 @@ Print a text scarf in various programming languages
 ### C# : main.cs :
 * `mcs -out:main.exe main.cs && mono main.exe`
 
+### F# : main.fs :
+* `fsharpc -out:main.exe main.cs && mono main.exe`
+
 ### Python 3 : main.py :
 * `python3 main.py`
 
@@ -52,6 +55,7 @@ Print a text scarf in various programming languages
 * For C : https://scarfc.isaacmeyer.repl.run
 * For C++ : https://scarfcpp.isaacmeyer.repl.run
 * For C# : https://scarfcs.isaacmeyer.repl.run
+* For F# : https://scarffs.isaacmeyer.repl.run
 * For Python 3 : https://scarfpy.isaacmeyer.repl.run
 * For Node.js : https://scarfjs.isaacmeyer.repl.run
 * For JSF*** : https://scarfjsf.isaacmeyer.repl.run
