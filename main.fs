@@ -2,7 +2,7 @@
 // Name     : scarf.fs
 // Author   : izder456
 // License  : N/A
-// Version  : v1.0
+// Version  : v1.0.1
 // Language : F#
 ///////////////////////
 open System
@@ -15,6 +15,7 @@ let main argv =
     let mutable colour1 = " ";
     let mutable colour2 = " ";
 
+    //get input
     Console.Write("Enter Charater 1 : ");
     colour1 <- Console.ReadLine();
     Console.Write("Enter Charater 2 : ");
@@ -25,10 +26,11 @@ let main argv =
     pattern_length <- int(Console.ReadLine());
     Console.Write("Enter desired scarf width (Whole Number) : ");
     pattern_width <- int(Console.ReadLine());
-
+    
+    //combine to array
     let colours = [colour1; colour2];
-    Console.WriteLine(string colours);
 
+    //print scarf
     Console.WriteLine();
     Console.Write("Here is oyur scarf : \n");
     let mutable pos = 0;
