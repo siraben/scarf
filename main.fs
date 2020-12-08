@@ -32,7 +32,7 @@ let main argv =
 
     //print scarf
     Console.WriteLine();
-    Console.Write("Here is oyur scarf : \n");
+    Console.Write("Here is your scarf : \n");
     let mutable pos = 0;
     let _pj_a = (pattern_width * pattern_length) - 1;
     for pos in 0 .. _pj_a do
